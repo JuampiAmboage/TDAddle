@@ -23,23 +23,23 @@ Backend del juego TDAddle
     source venv/bin/activate
 ```
 
-1. Una vez dentro, instalar Django y otras dependencias
+3. Una vez dentro, instalar Django y otras dependencias
 ```bash
     pip install -r requirements.txt
 ```
 
-1. Migrar las tablas a la base de datos
+4. Migrar las tablas a la base de datos
 
 ```bash
     python manage.py migrate
 ```
 
-4. Crear un superusuario
+5. Crear un superusuario
 ```bash
     python manage.py createsuperuser
 ```
 
-5. Iniciar el servidor (corre en el puerto 8000)
+6. Iniciar el servidor (corre en el puerto 8000)
 ```bash
     python manage.py runserver
 ```
