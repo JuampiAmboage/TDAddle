@@ -13,7 +13,7 @@ Backend del juego TDAddle
 
 1. Clonar el repositorio
 ```bash
-   git clone https://github.com/juan-pablo-gomez/TDAddle.git
+   git clone https://github.com/JuampiAmboage/TDAddle.git
    cd <repository_directory>
 ```
 
