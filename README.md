@@ -3,7 +3,7 @@
 Backend del juego TDAddle
 
 ---
-# Setup
+# Setup (Linux)
 
 ## Prerequisitos
 - Python 3.x
@@ -19,7 +19,7 @@ Backend del juego TDAddle
 
 2. Crear y activar un entorno virtual
 ```bash 
-    python -m venv venv
+    python3 -m venv venv
     source venv/bin/activate
 ```
 
@@ -31,17 +31,17 @@ Backend del juego TDAddle
 4. Migrar las tablas a la base de datos
 
 ```bash
-    python manage.py migrate
+    python3 manage.py migrate
 ```
 
 5. Crear un superusuario
 ```bash
-    python manage.py createsuperuser
+    python3 manage.py createsuperuser
 ```
 
 6. Iniciar el servidor (corre en el puerto 8000)
 ```bash
-    python manage.py runserver
+    python3 manage.py runserver
 ```
 
 # Rutas
