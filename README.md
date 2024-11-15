@@ -45,6 +45,5 @@ Backend del juego TDAddle
 ```
 
 # Rutas
-   - /admin
-   - /api
-   - /docs
+   - **/admin**: si ya te creaste un superusuario, te logeás y te da acceso a una interfaz para administrar las bases
+   - **/api**: acceso a la API
