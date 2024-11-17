@@ -1,10 +1,6 @@
 from django.urls import path, include
-from rest_framework import routers
-from algorithms import views
-
-router = routers.DefaultRouter()
-router.register(r'algorithms', views.AlgorithmViewSet)
+from .views import get_algorithm_of_the_day
 
 urlpatterns = [
-    path('', include(router.urls)),
+    path('', get_algorithm_of_the_day, name='get_algorithm_of_the_day'),
 ]
